@@ -24,7 +24,7 @@ from urllib.parse import urljoin, urlparse
 
 from playwright.sync_api import sync_playwright
 
-from _browser import launch_browser, hide_consent_banners
+from _browser import launch_browser, hide_consent_banners, goto
 
 BLOCK_MARKERS = re.compile(
     r"(just a moment|attention required|cf-browser-verification|captcha|access denied|"
@@ -181,7 +181,7 @@ def main():
                                   user_agent=None)
         page = ctx.new_page()
         try:
-            resp = page.goto(base, wait_until="domcontentloaded", timeout=45000)
+            resp = goto(page, base, wait_until="domcontentloaded", timeout=45000)
         except Exception as e:
             print(json.dumps({"blocked": True, "reason": f"network: {e}".splitlines()[0]}))
             sys.exit(3)
@@ -210,9 +210,10 @@ def main():
         all_scripts, tokens = {}, {}
         for url in ordered:
             try:
-                resp = page.goto(url, wait_until="networkidle", timeout=60000)
-            except Exception:
-                resp = page.goto(url, wait_until="domcontentloaded", timeout=60000)
+                resp = goto(page, url)
+            except Exception as e:
+                inventory["pages"].append({"url": url, "slug": slugify(url), "error": f"network: {e}".splitlines()[0]})
+                continue
             reason = check_blocked(resp, page)
             slug = slugify(url)
             if reason:

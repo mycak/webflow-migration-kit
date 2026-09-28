@@ -18,7 +18,7 @@ from urllib.parse import urljoin, urlparse
 
 from playwright.sync_api import sync_playwright
 
-from _browser import launch_browser, hide_consent_banners
+from _browser import launch_browser, hide_consent_banners, goto
 
 CHECK_JS = r"""
 (oldHost) => ({
@@ -66,10 +66,7 @@ def main():
             for width, height in ((1440, 900), (375, 812)):
                 ctx = b.new_context(viewport={"width": width, "height": height})
                 page = ctx.new_page()
-                try:
-                    resp = page.goto(url, wait_until="networkidle", timeout=60000)
-                except Exception:
-                    resp = page.goto(url, wait_until="domcontentloaded", timeout=60000)
+                resp = goto(page, url)
                 hide_consent_banners(page)
                 page.wait_for_timeout(600)
                 d = page.evaluate(CHECK_JS, old_host)

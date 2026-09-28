@@ -39,6 +39,23 @@ def launch_browser(p):
     return browser
 
 
+def goto(page, url, attempts=4, **kw):
+    """page.goto with retries: cloud egress proxies occasionally drop a tunnel
+    (net::ERR_TOO_MANY_RETRIES, ERR_CONNECTION_RESET, chrome-error interruptions)."""
+    import time
+    last = None
+    for i in range(attempts):
+        for wait in ("networkidle", "domcontentloaded"):
+            try:
+                return page.goto(url, wait_until=kw.get("wait_until", wait), timeout=kw.get("timeout", 60000))
+            except Exception as e:  # noqa: BLE001 - retried, re-raised below
+                last = e
+                if "Timeout" not in str(e):
+                    break  # network error: back off and retry instead of the looser wait
+        time.sleep(3 * (i + 1))
+    raise last
+
+
 def hide_consent_banners(page):
     """Hide cookie banners via DOM only. Never click consent buttons."""
     sel = ",".join(CONSENT_SELECTORS)
