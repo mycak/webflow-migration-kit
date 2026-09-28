@@ -24,7 +24,7 @@ migrations/            wyniki migracji (po jednej gałęzi na domenę)
 ## Jednorazowa konfiguracja
 
 ### 1. Repozytorium
-1. Utwórz prywatne repo (np. `fouroceanlimited/webflow-migration-kit`) i wypchnij zawartość tego katalogu.
+1. Repo: https://github.com/mycak/webflow-migration-kit
 2. Zainstaluj **Claude GitHub App** na tym repo (claude.ai/code → onboarding albo github.com/apps/claude).
 
 ### 2. Pula projektów Webflow
@@ -71,7 +71,7 @@ Wynik: staging `https://<shortName>.webflow.io`, `migrations/<domena>/qa-report.
 
 ## Lokalnie jako plugin (Claude Code)
 ```
-/plugin marketplace add fouroceanlimited/webflow-migration-kit
+/plugin marketplace add mycak/webflow-migration-kit
 /plugin install webflow-migration-kit@fouroceanlimited-tools
 claude mcp add --transport http webflow https://mcp.webflow.com/mcp     # logowanie OAuth do Webflow
 pip install -r requirements.txt && python3 -m playwright install chromium
