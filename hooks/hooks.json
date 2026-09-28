@@ -1,0 +1,10 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "mcp__.*[Ww]ebflow.*",
+        "hooks": [ { "type": "command", "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/scripts/guard.py\"", "timeout": 10 } ]
+      }
+    ]
+  }
+}

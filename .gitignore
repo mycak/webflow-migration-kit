@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+migrations/.playwright/
+migrations/**/assets/uploads/
+.env
+.env.*
+.DS_Store

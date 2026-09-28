@@ -1,0 +1,14 @@
+{
+  "name": "fouroceanlimited-tools",
+  "owner": {
+    "name": "Four Ocean Limited"
+  },
+  "plugins": [
+    {
+      "name": "webflow-migration-kit",
+      "source": "./",
+      "description": "Website → Webflow migration kit (audit, build, assets, QA)."
+    }
+  ],
+  "description": "Four Ocean Limited – internal Claude Code plugins (Webflow migration kit)"
+}

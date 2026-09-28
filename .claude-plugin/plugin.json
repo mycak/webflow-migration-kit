@@ -1,0 +1,8 @@
+{
+  "name": "webflow-migration-kit",
+  "version": "0.1.0",
+  "description": "Reproducible migration of any live website (WordPress/Elementor, static, Next.js, Wix…) to Webflow: headless audit with Playwright, build via Webflow MCP without the Designer, image upload via Data API, QA and staging publish.",
+  "author": { "name": "Four Ocean Limited" },
+  "keywords": ["webflow", "migration", "wordpress", "playwright"],
+  "hooks": "./hooks/hooks.json"
+}
