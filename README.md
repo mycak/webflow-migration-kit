@@ -48,7 +48,12 @@ migrations/            wyniki migracji (po jednej gałęzi na domenę)
   ```
   (+ CDN-y obrazów źródła, jeśli inne, np. `*.wp.com`). Webflow MCP idzie przez connector i nie wymaga wpisu.
 - **Setup script**: zawartość `setup/cloud-setup.sh`.
-- **Environment variables**: opcjonalnie `MIGRATION_TRACKING_APPROVED=1` tylko dla środowisk, w których klient z góry zgodził się na przeniesienie skryptów śledzących. Nie wpisuj sekretów (zmienne są widoczne dla użytkowników środowiska).
+- **Environment variables**:
+  ```
+  PLAYWRIGHT_CHROMIUM_EXECUTABLE=/opt/pw-browsers/chromium
+  ```
+  (Chromium preinstalowany w obrazie chmurowym — używają go `scripts/_browser.py` i serwer Playwright MCP, więc nie trzeba pobierać przeglądarki przy każdej sesji).
+  Opcjonalnie `MIGRATION_TRACKING_APPROVED=1` tylko dla środowisk, w których klient z góry zgodził się na przeniesienie skryptów śledzących. Nie wpisuj sekretów (zmienne są widoczne dla użytkowników środowiska).
 
 W organizacji Team/Enterprise właściciel może utworzyć to środowisko jako **współdzielone** (Admin settings → Cloud environments).
 
