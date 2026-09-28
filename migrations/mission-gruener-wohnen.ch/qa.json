@@ -1,0 +1,250 @@
+[
+  {
+    "slug": "home",
+    "source": "https://mission-gruener-wohnen.ch/",
+    "staging": "https://blank-migration-01.webflow.io/",
+    "status": 200,
+    "title": "home - MISSION GRÜNER WOHNEN",
+    "description": "Grüne Energie für Ihr Haus: Kostenlose Angebote von Fachfirmen aus Ihrer Region für Solaranlage und Wärmepumpe. Modern. Ökologisch. Richtig. Einfach.",
+    "lang": "de-CH",
+    "h1": 1,
+    "images": 13,
+    "broken_images": [],
+    "font": "Roboto",
+    "old_domain_links": [],
+    "text_coverage": 1.0,
+    "missing_text": [],
+    "source_h1": 0,
+    "mobile_overflow": false
+  },
+  {
+    "slug": "agb",
+    "source": "https://mission-gruener-wohnen.ch/agb/",
+    "staging": "https://blank-migration-01.webflow.io/agb/",
+    "status": 200,
+    "title": "AGB - MISSION GRÜNER WOHNEN",
+    "description": "Allgemeine Geschäftsbedingungen: mission-gruener-wohnen.ch ist ein Produkt der bracca publishing B.V. – Plattform zur Vermittlung von Vergleichsanfragen.",
+    "lang": "de-CH",
+    "h1": 0,
+    "images": 1,
+    "broken_images": [],
+    "font": "Roboto",
+    "old_domain_links": [
+      "http://www.mission-gruener-wohnen.ch/"
+    ],
+    "text_coverage": 1.0,
+    "missing_text": [],
+    "source_h1": 0,
+    "mobile_overflow": false
+  },
+  {
+    "slug": "datenschutz",
+    "source": "https://mission-gruener-wohnen.ch/datenschutz/",
+    "staging": "https://blank-migration-01.webflow.io/datenschutz/",
+    "status": 200,
+    "title": "Datenschutzerklärung - MISSION GRÜNER WOHNEN",
+    "description": "Datenschutzerklärung: Überblick darüber, welche personenbezogenen Daten wir erheben und wie diese verarbeitet werden, wenn Sie unsere Website besuchen.",
+    "lang": "de-CH",
+    "h1": 0,
+    "images": 1,
+    "broken_images": [],
+    "font": "Roboto",
+    "old_domain_links": [],
+    "text_coverage": 1.0,
+    "missing_text": [],
+    "source_h1": 0,
+    "mobile_overflow": false
+  },
+  {
+    "slug": "impressum",
+    "source": "https://mission-gruener-wohnen.ch/impressum/",
+    "staging": "https://blank-migration-01.webflow.io/impressum/",
+    "status": 200,
+    "title": "Impressum - MISSION GRÜNER WOHNEN",
+    "description": "Impressum: mission-gruener-wohnen.ch ist ein Produkt der bracca publishing B.V., Buitenrustpad 11HS, 1097 MX Amsterdam, Niederlande.",
+    "lang": "de-CH",
+    "h1": 0,
+    "images": 1,
+    "broken_images": [],
+    "font": "Roboto",
+    "old_domain_links": [
+      "http://www.mission-gruener-wohnen.ch/"
+    ],
+    "text_coverage": 1.0,
+    "missing_text": [],
+    "source_h1": 0,
+    "mobile_overflow": false
+  },
+  {
+    "slug": "solaranlage_m_e1",
+    "source": "https://mission-gruener-wohnen.ch/solaranlage_m_e1/",
+    "staging": "https://blank-migration-01.webflow.io/solaranlage_m_e1/",
+    "status": 200,
+    "title": "Solar | Mission Grüner Wohnen - MISSION GRÜNER WOHNEN",
+    "description": "In nur 60 Sekunden Solar-Ersparnis berechnen. Jetzt kostenlos Angebote von Solarteuren vergleichen! 100% kostenlos & unverbindlich.",
+    "lang": "de-CH",
+    "h1": 1,
+    "images": 1,
+    "broken_images": [],
+    "font": "Roboto",
+    "old_domain_links": [],
+    "text_coverage": 1.0,
+    "missing_text": [],
+    "source_h1": 0,
+    "mobile_overflow": false
+  },
+  {
+    "slug": "waermepumpe_m_e1",
+    "source": "https://mission-gruener-wohnen.ch/waermepumpe_m_e1/",
+    "staging": "https://blank-migration-01.webflow.io/waermepumpe_m_e1/",
+    "status": 200,
+    "title": "Wärmepumpe | Mission Grüner Wohnen - MISSION GRÜNER WOHNEN",
+    "description": "Jetzt Wärmepumpe mit Rekord-Förderungen sichern. In nur 60 Sekunden Qualifizierung überprüfen – 100% kostenlos & unverbindlich.",
+    "lang": "de-CH",
+    "h1": 1,
+    "images": 1,
+    "broken_images": [],
+    "font": "Roboto",
+    "old_domain_links": [],
+    "text_coverage": 1.0,
+    "missing_text": [],
+    "source_h1": 0,
+    "mobile_overflow": false
+  },
+  {
+    "slug": "alles-was-hausbesitzer-uber-solaranlagen-wissen-mussen-faq",
+    "source": "https://mission-gruener-wohnen.ch/alles-was-hausbesitzer-uber-solaranlagen-wissen-mussen-faq/",
+    "staging": "https://blank-migration-01.webflow.io/ratgeber/alles-was-hausbesitzer-uber-solaranlagen-wissen-mussen-faq",
+    "status": 200,
+    "title": "Alles, was Hausbesitzer über Solaranlagen wissen müssen: FAQ - MISSION GRÜNER WOHNEN",
+    "description": "Entdecken Sie die wichtigsten FAQ über Solaranlagen für Hausbesitzer in der Schweiz. Erfahren Sie, wie Solaranlagen funktionieren, ihre Vorteile, Fördermöglichkeiten und die Amortisationszeit. Holen Sie sich zuverlässige Informationen und Beratung für eine nachhaltige Energiezukunft.",
+    "lang": "de-CH",
+    "h1": 1,
+    "images": 2,
+    "broken_images": [],
+    "font": "Roboto",
+    "old_domain_links": [
+      "https://mission-gruener-wohnen.ch/?p=2479&preview=true"
+    ],
+    "text_coverage": 0.909,
+    "missing_text": [
+      "vorheriger artikel",
+      "vorteile von wärmepumpen: energieeffizienz und kosteneinsparungen",
+      "entdecken sie die vorteile von wärmepumpen in der schweiz: hohe energieeffizienz, kosteneinsparungen und umweltfreundlichkeit. erfahren sie, wie wärmepumpen ihre heizkosten senken und von staatlichen förderprogrammen profitieren können."
+    ],
+    "source_h1": 1,
+    "mobile_overflow": false
+  },
+  {
+    "slug": "wie-arbeitet-eine-warmepumpe-ein-leitfaden-fur-umweltfreundliche-energie",
+    "source": "https://mission-gruener-wohnen.ch/wie-arbeitet-eine-warmepumpe-ein-leitfaden-fur-umweltfreundliche-energie/",
+    "staging": "https://blank-migration-01.webflow.io/ratgeber/wie-arbeitet-eine-warmepumpe-ein-leitfaden-fur-umweltfreundliche-energie",
+    "status": 200,
+    "title": "Wie arbeitet eine Wärmepumpe? Ein Leitfaden für umweltfreundliche Energie - MISSION GRÜNER WOHNEN",
+    "description": "Erfahren Sie in unserem Leitfaden \"Wie arbeitet eine Wärmepumpe?\" alles über die Funktionsweise, Vorteile und Einsatzmöglichkeiten von Wärmepumpen für nachhaltige Energie in der Schweiz. Entdecken Sie, warum Wärmepumpen eine effiziente und umweltfreundliche Lösung für Heizung und Kühlung sind.",
+    "lang": "de-CH",
+    "h1": 1,
+    "images": 2,
+    "broken_images": [],
+    "font": "Roboto",
+    "old_domain_links": [
+      "https://mission-gruener-wohnen.ch/?p=2465&preview=true"
+    ],
+    "text_coverage": 0.907,
+    "missing_text": [
+      "vorheriger artikel",
+      "nächster artikel",
+      "vorteile von wärmepumpen: energieeffizienz und kosteneinsparungen",
+      "entdecken sie die vorteile von wärmepumpen in der schweiz: hohe energieeffizienz, kosteneinsparungen und umweltfreundlichkeit. erfahren sie, wie wärmepumpen ihre heizkosten senken und von staatlichen förderprogrammen profitieren können."
+    ],
+    "source_h1": 1,
+    "mobile_overflow": false
+  },
+  {
+    "slug": "vorteile-von-warmepumpen-energieeffizienz-und-kosteneinsparungen",
+    "source": "https://mission-gruener-wohnen.ch/vorteile-von-warmepumpen-energieeffizienz-und-kosteneinsparungen/",
+    "staging": "https://blank-migration-01.webflow.io/ratgeber/vorteile-von-warmepumpen-energieeffizienz-und-kosteneinsparungen",
+    "status": 200,
+    "title": "Vorteile von Wärmepumpen: Energieeffizienz und Kosteneinsparungen - MISSION GRÜNER WOHNEN",
+    "description": "Entdecken Sie die Vorteile von Wärmepumpen in der Schweiz: Hohe Energieeffizienz, Kosteneinsparungen und Umweltfreundlichkeit. Erfahren Sie, wie Wärmepumpen Ihre Heizkosten senken und von staatlichen Förderprogrammen profitieren können.",
+    "lang": "de-CH",
+    "h1": 1,
+    "images": 2,
+    "broken_images": [],
+    "font": "Roboto",
+    "old_domain_links": [
+      "https://mission-gruener-wohnen.ch/?p=2535&preview=true"
+    ],
+    "text_coverage": 0.943,
+    "missing_text": [
+      "vorheriger artikel",
+      "nächster artikel"
+    ],
+    "source_h1": 1,
+    "mobile_overflow": false
+  },
+  {
+    "slug": "solaranlagen-auf-steildachern-nachhaltige-energie-fur-die-schweiz",
+    "source": "https://mission-gruener-wohnen.ch/solaranlagen-auf-steildachern-nachhaltige-energie-fur-die-schweiz/",
+    "staging": "https://blank-migration-01.webflow.io/ratgeber/solaranlagen-auf-steildachern-nachhaltige-energie-fur-die-schweiz",
+    "status": 200,
+    "title": "Solaranlagen auf Steildächern: Nachhaltige Energie für die Schweiz - MISSION GRÜNER WOHNEN",
+    "description": "Erfahren Sie mehr über Solaranlagen auf Steildächern: Entdecken Sie die Vorteile, wie optimale Sonneneinstrahlung und ästhetische Integration. Profitieren Sie von umweltfreundlicher Energiegewinnung und langfristigen Einsparungen in der Schweiz.",
+    "lang": "de-CH",
+    "h1": 1,
+    "images": 2,
+    "broken_images": [],
+    "font": "Roboto",
+    "old_domain_links": [
+      "https://mission-gruener-wohnen.ch/?p=2572&preview=true"
+    ],
+    "text_coverage": 0.953,
+    "missing_text": [
+      "vorheriger artikel",
+      "nächster artikel"
+    ],
+    "source_h1": 1,
+    "mobile_overflow": false
+  },
+  {
+    "slug": "technologie-fuer-private-solaranlagen",
+    "source": "https://mission-gruener-wohnen.ch/technologie-fuer-private-solaranlagen/",
+    "staging": "https://blank-migration-01.webflow.io/ratgeber/technologie-fuer-private-solaranlagen",
+    "status": 200,
+    "title": "Technologie für private Solaranlagen - MISSION GRÜNER WOHNEN",
+    "description": "Solaranlagen sind eine lohnende Investition, die Ihnen viele Vorteile bietet, wie z.B. Kosteneinsparungen, Unabhängigkeit, Umweltschutz und mehr. Doch wie hat sich die Technologie für private Solaranlagen in den letzten Jahren entwickelt und was können Sie in Zukunft erwarten? In diesem Artikel erfahren Sie, welche technischen Fortschritte es bei den Komponenten, dem Speicher, dem Management und der Integration von Solaranlagen gibt und wie Sie davon profitieren können.",
+    "lang": "de-CH",
+    "h1": 1,
+    "images": 2,
+    "broken_images": [],
+    "font": "Roboto",
+    "old_domain_links": [],
+    "text_coverage": 0.965,
+    "missing_text": [
+      "vorheriger artikel",
+      "nächster artikel"
+    ],
+    "source_h1": 1,
+    "mobile_overflow": false
+  },
+  {
+    "slug": "solaranlagen_einfuhrung",
+    "source": "https://mission-gruener-wohnen.ch/solaranlagen_einfuhrung/",
+    "staging": "https://blank-migration-01.webflow.io/ratgeber/solaranlagen_einfuhrung",
+    "status": 200,
+    "title": "Solaranlagen für zu Hause - MISSION GRÜNER WOHNEN",
+    "description": "Hier werfen wir einen umfassenden Blick auf Solaranlagen für den privaten Gebrauch, von den grundlegenden Vorteilen bis hin zu technologischen Entwicklungen und der praktischen Umsetzung.",
+    "lang": "de-CH",
+    "h1": 1,
+    "images": 2,
+    "broken_images": [],
+    "font": "Roboto",
+    "old_domain_links": [],
+    "text_coverage": 0.98,
+    "missing_text": [
+      "nächster artikel"
+    ],
+    "source_h1": 1,
+    "mobile_overflow": false
+  }
+]

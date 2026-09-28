@@ -1,0 +1,330 @@
+{
+  "wp_pages": [
+    {
+      "link": "https://mission-gruener-wohnen.ch/solar-ch-outbrain-v4/",
+      "slug": "solar-ch-outbrain-v4",
+      "title": "Solar"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/solar-family-advertorial-o-e3/",
+      "slug": "solar-family-advertorial-o-e3",
+      "title": "solar- adv &#8211; outbrain &#8211; v3"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/solar-invest-advertorial-o-e2/",
+      "slug": "solar-invest-advertorial-o-e2",
+      "title": "solar &#8211; ch &#8211; outbrain &#8211; v2"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/heatpump-subsidy-advertorial-t-e1/",
+      "slug": "heatpump-subsidy-advertorial-t-e1",
+      "title": "heatpump &#8211; ch &#8211; subsidy angle &#8211; taboola &#8211; v1"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/solar-o-ty/",
+      "slug": "solar-o-ty",
+      "title": "Solar | Danke | Outbrain"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/solar-t-ty/",
+      "slug": "solar-t-ty",
+      "title": "Solar | Danke | Taboola"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/solar-t-e1/",
+      "slug": "solar-t-e1",
+      "title": "Solar | Mission Grüner Wohnen &#8211; Taboola"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/solar-advertorial-t-e2/",
+      "slug": "solar-advertorial-t-e2",
+      "title": "solar &#8211; ch &#8211; politics angle &#8211; taboola &#8211; v1"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/solar-foerderung-advertorial-m-1/",
+      "slug": "solar-foerderung-advertorial-m-1",
+      "title": "Solar Förderung &#8211; Advertorial &#8211; 1 &#8211; Meta"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/heatpump-subsidy-advertorial-o-e1/",
+      "slug": "heatpump-subsidy-advertorial-o-e1",
+      "title": "heatpump &#8211; ch &#8211; subsidy angle &#8211; outbrain &#8211; v1"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/solar-o-e1/",
+      "slug": "solar-o-e1",
+      "title": "Solar | Mission Grüner Wohnen &#8211; Outbrain"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/solar-advertorial-o-e2/",
+      "slug": "solar-advertorial-o-e2",
+      "title": "solar &#8211; ch &#8211; politics angle &#8211; outbrain &#8211; v1"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/out_solar-form/",
+      "slug": "out_solar-form",
+      "title": "out_solar-form"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/out_solar-only-form-1905/",
+      "slug": "out_solar-only-form-1905",
+      "title": "out_solar-only-form-1905"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/agb/",
+      "slug": "agb",
+      "title": "AGB"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/out_solar-die-fakten-ueber-solar-100/",
+      "slug": "out_solar-die-fakten-ueber-solar-100",
+      "title": "out_solar-Die Fakten über Solar-100"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/out_solar-leben-revolutionieren-kann/",
+      "slug": "out_solar-leben-revolutionieren-kann",
+      "title": "out_solar-leben-revolutionieren-kann"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/out_solar-angebot-rechner/",
+      "slug": "out_solar-angebot-rechner",
+      "title": "out_solar-angebot-rechner"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/solaranlage_y_ty/",
+      "slug": "solaranlage_y_ty",
+      "title": "Solar | Danke | Mission Grüner Wohnen"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/solaranlage_y_e1/",
+      "slug": "solaranlage_y_e1",
+      "title": "Solar | Mission Grüner Wohnen"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/solaranlage_m_ty/",
+      "slug": "solaranlage_m_ty",
+      "title": "Solar | Danke | Mission Grüner Wohnen"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/waermepumpe_m_ty/",
+      "slug": "waermepumpe_m_ty",
+      "title": "Wärmepumpe | Danke | Mission Grüner Wohnen"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/waermepumpe_m_e1/",
+      "slug": "waermepumpe_m_e1",
+      "title": "Wärmepumpe | Mission Grüner Wohnen"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/solaranlage_m_e1/",
+      "slug": "solaranlage_m_e1",
+      "title": "Solar | Mission Grüner Wohnen"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/treppenlift_y_e1/",
+      "slug": "treppenlift_y_e1",
+      "title": "Treppenlift | Mission Grüner Wohnen"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/yt_short_b_solaranlage_kaufen/",
+      "slug": "yt_short_b_solaranlage_kaufen",
+      "title": "yt_short_b_solaranlage_kaufen"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/yt_ty-solaranlage_kaufen/",
+      "slug": "yt_ty-solaranlage_kaufen",
+      "title": "yt_ty-solaranlage_kaufen"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/meta_solar-boom-geht-weiter-genialer-solar-rechner-macht-anschaffung-kinderleicht/",
+      "slug": "meta_solar-boom-geht-weiter-genialer-solar-rechner-macht-anschaffung-kinderleicht",
+      "title": "meta_solar-boom-geht-weiter-genialer-solar-rechner-macht-anschaffung-kinderleicht"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/tab_solar-boom-geht-weiter-genialer-solar-rechner-macht-anschaffung-kinderleicht/",
+      "slug": "tab_solar-boom-geht-weiter-genialer-solar-rechner-macht-anschaffung-kinderleicht",
+      "title": "tab_solar-boom-geht-weiter-genialer-solar-rechner-macht-anschaffung-kinderleicht"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/tab_short_solaranlage_kaufen/",
+      "slug": "tab_short_solaranlage_kaufen",
+      "title": "tab_short_solaranlage_kaufen"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/out_solar-boom-geht-weiter-genialer-solar-rechner-macht-anschaffung-kinderleicht/",
+      "slug": "out_solar-boom-geht-weiter-genialer-solar-rechner-macht-anschaffung-kinderleicht",
+      "title": "out_solar-boom-geht-weiter-genialer-solar-rechner-macht-anschaffung-kinderleicht"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/ty-solaranlage_kaufen-2/",
+      "slug": "ty-solaranlage_kaufen-2",
+      "title": "ty-solaranlage_kaufen"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/solaranlage_m_b/",
+      "slug": "solaranlage_m_b",
+      "title": "Solaranlage B"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/out_hausbesitzer-bekommen-dank-dieses-tricks-die-solaranlage-fast-umsonst/",
+      "slug": "out_hausbesitzer-bekommen-dank-dieses-tricks-die-solaranlage-fast-umsonst",
+      "title": "out_Hausbesitzer bekommen dank dieses Tricks die Solaranlage fast umsonst"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/out_short_solaranlage_kaufen/",
+      "slug": "out_short_solaranlage_kaufen",
+      "title": "out_short_solaranlage_kaufen"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/solaranlage_m_adv1/",
+      "slug": "solaranlage_m_adv1",
+      "title": "Hausbesitzer bekommen dank dieses Tricks die Solaranlage fast umsonst"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/webpage_waermepumpe_installieren/",
+      "slug": "webpage_waermepumpe_installieren",
+      "title": "webpage_waermepumpe_installieren"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/webpage_short_solaranlage_kaufen/",
+      "slug": "webpage_short_solaranlage_kaufen",
+      "title": "webpage_short_solaranlage_kaufen"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/",
+      "slug": "home",
+      "title": "home"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/meta_short_solaranlage_kaufen/",
+      "slug": "meta_short_solaranlage_kaufen",
+      "title": "meta_short_solaranlage_kaufen"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/meta_solaranlage_kaufen/",
+      "slug": "meta_solaranlage_kaufen",
+      "title": "meta_solaranlage_kaufen"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/out_solaranlage_kaufen/",
+      "slug": "out_solaranlage_kaufen",
+      "title": "out_solaranlage_kaufen"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/meta_ty-solaranlage_kaufen/",
+      "slug": "meta_ty-solaranlage_kaufen",
+      "title": "meta_ty-solaranlage_kaufen"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/meta_ty_waermepumpe_installieren/",
+      "slug": "meta_ty_waermepumpe_installieren",
+      "title": "meta_ty_waermepumpe_installieren"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/ty_waermepumpe_installieren/",
+      "slug": "ty_waermepumpe_installieren",
+      "title": "ty_waermepumpe_installieren"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/ty-solaranlage_kaufen/",
+      "slug": "ty-solaranlage_kaufen",
+      "title": "ty-solaranlage_kaufen"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/was-kostet-eine-solaranlage-wirklich/",
+      "slug": "was-kostet-eine-solaranlage-wirklich",
+      "title": "Was kostet eine Solaranlage wirklich?"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/impressum/",
+      "slug": "impressum",
+      "title": "Impressum"
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/datenschutz/",
+      "slug": "datenschutz",
+      "title": "Datenschutzerklärung"
+    }
+  ],
+  "wp_posts": [
+    {
+      "link": "https://mission-gruener-wohnen.ch/alles-was-hausbesitzer-uber-solaranlagen-wissen-mussen-faq/",
+      "slug": "alles-was-hausbesitzer-uber-solaranlagen-wissen-mussen-faq",
+      "title": "Alles, was Hausbesitzer über Solaranlagen wissen müssen: FAQ",
+      "date": "2025-01-08T12:27:59",
+      "categories": [
+        9
+      ]
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/wie-arbeitet-eine-warmepumpe-ein-leitfaden-fur-umweltfreundliche-energie/",
+      "slug": "wie-arbeitet-eine-warmepumpe-ein-leitfaden-fur-umweltfreundliche-energie",
+      "title": "Wie arbeitet eine Wärmepumpe? Ein Leitfaden für umweltfreundliche Energie",
+      "date": "2025-01-08T12:27:13",
+      "categories": [
+        19
+      ]
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/vorteile-von-warmepumpen-energieeffizienz-und-kosteneinsparungen/",
+      "slug": "vorteile-von-warmepumpen-energieeffizienz-und-kosteneinsparungen",
+      "title": "Vorteile von Wärmepumpen: Energieeffizienz und Kosteneinsparungen",
+      "date": "2025-01-08T12:26:44",
+      "categories": [
+        19
+      ]
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/solaranlagen-auf-steildachern-nachhaltige-energie-fur-die-schweiz/",
+      "slug": "solaranlagen-auf-steildachern-nachhaltige-energie-fur-die-schweiz",
+      "title": "Solaranlagen auf Steildächern: Nachhaltige Energie für die Schweiz",
+      "date": "2025-01-08T12:26:04",
+      "categories": [
+        9
+      ]
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/technologie-fuer-private-solaranlagen/",
+      "slug": "technologie-fuer-private-solaranlagen",
+      "title": "Technologie für private Solaranlagen",
+      "date": "2024-01-05T17:55:05",
+      "categories": [
+        9
+      ]
+    },
+    {
+      "link": "https://mission-gruener-wohnen.ch/solaranlagen_einfuhrung/",
+      "slug": "solaranlagen_einfuhrung",
+      "title": "Solaranlagen für zu Hause",
+      "date": "2024-01-03T09:08:08",
+      "categories": [
+        9
+      ]
+    }
+  ],
+  "sitemap": [
+    "https://mission-gruener-wohnen.ch/post-sitemap.xml",
+    "https://mission-gruener-wohnen.ch/page-sitemap.xml",
+    "https://mission-gruener-wohnen.ch/e-landing-page-sitemap.xml",
+    "https://mission-gruener-wohnen.ch/category-sitemap.xml",
+    "https://mission-gruener-wohnen.ch/post_tag-sitemap.xml",
+    "https://mission-gruener-wohnen.ch/author-sitemap.xml",
+    "https://mission-gruener-wohnen.ch/post-sitemap.xml",
+    "https://mission-gruener-wohnen.ch/page-sitemap.xml",
+    "https://mission-gruener-wohnen.ch/e-landing-page-sitemap.xml",
+    "https://mission-gruener-wohnen.ch/category-sitemap.xml",
+    "https://mission-gruener-wohnen.ch/post_tag-sitemap.xml",
+    "https://mission-gruener-wohnen.ch/author-sitemap.xml",
+    "https://mission-gruener-wohnen.ch/post-sitemap.xml",
+    "https://mission-gruener-wohnen.ch/page-sitemap.xml",
+    "https://mission-gruener-wohnen.ch/e-landing-page-sitemap.xml",
+    "https://mission-gruener-wohnen.ch/category-sitemap.xml",
+    "https://mission-gruener-wohnen.ch/post_tag-sitemap.xml",
+    "https://mission-gruener-wohnen.ch/author-sitemap.xml"
+  ],
+  "nav": [
+    "https://mission-gruener-wohnen.ch/agb/",
+    "https://mission-gruener-wohnen.ch/datenschutz/",
+    "https://mission-gruener-wohnen.ch/impressum/"
+  ]
+}

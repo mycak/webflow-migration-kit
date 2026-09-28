@@ -1,0 +1,173 @@
+[
+  {
+    "tag": "script",
+    "src": "https://wave.outbrain.com/mtWavesBundler/handler/00b18dbdd186b20f1caaf39540b6da59bc",
+    "attrs": {
+      "async": "",
+      "src": "https://wave.outbrain.com/mtWavesBundler/handler/00b18dbdd186b20f1caaf39540b6da59bc",
+      "type": "text/javascript"
+    },
+    "text": ""
+  },
+  {
+    "tag": "script",
+    "src": "https://connect.facebook.net/signals/config/940703997470214?v=2.9.408&r=stable&domain=mission-gruener-wohnen.ch&hme=f9ad993bedcdbb3fffd47532e189463ba18afe816a0bd364070ce559e4a6ac26&ex_m=117%2C239%2C169%2C27%2C81%2C82%2C160%2C77%2C76%2C11%2C179%2C101%2C20%2C152%2C140%2C46%2C84%2C89%2C148%2C174%2C181%2C8%2C4%2C5%2C7%2C6%2C3%2C102%2C114%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C37%2C55%2C161%2C86%2C125%2C22%2C24%2C51%2C47%2C49%2C48%2C94%2C103%2C107%2C123%2C159%2C162%2C53%2C124%2C29%2C26%2C132%2C78%2C43%2C164%2C163%2C165%2C156%2C154%2C30%2C42%2C66%2C122%2C176%2C79%2C21%2C127%2C92%2C75%2C23%2C96%2C97%2C129%2C95%2C150%2C149%2C153%2C108%2C175%2C178%2C41%2C56%2C126%2C54%2C183%2C109%2C182%2C208%2C253%2C83%2C267%2C266%2C265%2C14%2C25%2C28%2C40%2C62%2C116%2C68%2C10%2C72%2C110%2C111%2C112%2C118%2C143%2C38%2C36%2C145%2C146%2C147%2C142%2C141%2C170%2C85%2C173%2C171%2C172%2C57%2C67%2C136%2C19%2C177%2C52%2C316%2C317%2C318%2C315%2C331%2C356%2C246%2C235%2C69%2C236%2C234%2C359%2C350%2C59%2C247%2C120%2C144%2C91%2C134%2C61%2C133%2C139%2C138%2C65%2C73%2C71%2C166%2C87%2C88%2C128%2C44%2C39%2C60%2C63%2C113%2C180%2C1%2C137%2C16%2C135%2C12%2C2%2C64%2C104%2C15%2C74%2C70%2C131%2C100%2C99%2C185%2C186%2C105%2C106%2C9%2C115%2C184%2C58%2C157%2C98%2C90%2C80%2C130%2C119%2C167%2C50%2C158%2C0%2C93%2C151%2C155%2C168%2C45%2C121%2C13%2C187",
+    "attrs": {
+      "src": "https://connect.facebook.net/signals/config/940703997470214?v=2.9.408&r=stable&domain=mission-gruener-wohnen.ch&hme=f9ad993bedcdbb3fffd47532e189463ba18afe816a0bd364070ce559e4a6ac26&ex_m=117%2C239%2C169%2C27%2C81%2C82%2C160%2C77%2C76%2C11%2C179%2C101%2C20%2C152%2C140%2C46%2C84%2C89%2C148%2C174%2C181%2C8%2C4%2C5%2C7%2C6%2C3%2C102%2C114%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C37%2C55%2C161%2C86%2C125%2C22%2C24%2C51%2C47%2C49%2C48%2C94%2C103%2C107%2C123%2C159%2C162%2C53%2C124%2C29%2C26%2C132%2C78%2C43%2C164%2C163%2C165%2C156%2C154%2C30%2C42%2C66%2C122%2C176%2C79%2C21%2C127%2C92%2C75%2C23%2C96%2C97%2C129%2C95%2C150%2C149%2C153%2C108%2C175%2C178%2C41%2C56%2C126%2C54%2C183%2C109%2C182%2C208%2C253%2C83%2C267%2C266%2C265%2C14%2C25%2C28%2C40%2C62%2C116%2C68%2C10%2C72%2C110%2C111%2C112%2C118%2C143%2C38%2C36%2C145%2C146%2C147%2C142%2C141%2C170%2C85%2C173%2C171%2C172%2C57%2C67%2C136%2C19%2C177%2C52%2C316%2C317%2C318%2C315%2C331%2C356%2C246%2C235%2C69%2C236%2C234%2C359%2C350%2C59%2C247%2C120%2C144%2C91%2C134%2C61%2C133%2C139%2C138%2C65%2C73%2C71%2C166%2C87%2C88%2C128%2C44%2C39%2C60%2C63%2C113%2C180%2C1%2C137%2C16%2C135%2C12%2C2%2C64%2C104%2C15%2C74%2C70%2C131%2C100%2C99%2C185%2C186%2C105%2C106%2C9%2C115%2C184%2C58%2C157%2C98%2C90%2C80%2C130%2C119%2C167%2C50%2C158%2C0%2C93%2C151%2C155%2C168%2C45%2C121%2C13%2C187",
+      "async": ""
+    },
+    "text": ""
+  },
+  {
+    "tag": "script",
+    "src": "https://connect.facebook.net/en_US/fbevents.js",
+    "attrs": {
+      "async": "",
+      "src": "https://connect.facebook.net/en_US/fbevents.js"
+    },
+    "text": ""
+  },
+  {
+    "tag": "script",
+    "src": "https://www.googletagmanager.com/gtm.js?id=GTM-5P27H2LT",
+    "attrs": {
+      "async": "",
+      "src": "https://www.googletagmanager.com/gtm.js?id=GTM-5P27H2LT"
+    },
+    "text": ""
+  },
+  {
+    "tag": "script",
+    "src": "https://amplify.outbrain.com/cp/obtp.js",
+    "attrs": {
+      "async": "",
+      "src": "//amplify.outbrain.com/cp/obtp.js",
+      "type": "text/javascript"
+    },
+    "text": ""
+  },
+  {
+    "tag": "script",
+    "src": "https://www.googletagmanager.com/gtag/js?id=GT-MQXZWR2Q&cx=c&gtm=4e69n1",
+    "attrs": {
+      "type": "text/javascript",
+      "async": "",
+      "src": "https://www.googletagmanager.com/gtag/js?id=GT-MQXZWR2Q&cx=c&gtm=4e69n1"
+    },
+    "text": ""
+  },
+  {
+    "tag": "script",
+    "src": null,
+    "attrs": {
+      "type": "text/javascript",
+      "data-cookieconsent": "ignore"
+    },
+    "text": "window.dataLayer = window.dataLayer || [];\n\n\tfunction gtag() {\n\t\tdataLayer.push(arguments);\n\t}\n\n\tgtag(\"consent\", \"default\", {\n\t\tad_personalization: \"denied\",\n\t\tad_storage: \"denied\",\n\t\tad_user_data: \"denied\",\n\t\tanalytics_storage: \"denied\",\n\t\tfunctionality_storage: \"denied\",\n\t\tpersonalization_storage: \"denied\",\n\t\tsecurity_storage: \"granted\",\n\t\twait_for_update: 500,\n\t});\n\tgtag(\"set\", \"ads_data_redaction\", true);\n\tgtag(\"set\", \"url_passthrough\", true);"
+  },
+  {
+    "tag": "script",
+    "src": null,
+    "attrs": {
+      "type": "text/javascript",
+      "data-cookieconsent": "ignore"
+    },
+    "text": "(function (w, d, s, l, i) {\n\t\tw[l] = w[l] || [];\n\t\tw[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});\n\t\tvar f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l !== 'dataLayer' ? '&l=' + l : '';\n\t\tj.async = true;\n\t\tj.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;\n\t\tf.parentNode.insertBefore(j, f);\n\t})(\n\t\twindow,\n\t\tdocument,\n\t\t'script',\n\t\t'dataLayer',\n\t\t'GTM-5P27H2LT'\n\t);"
+  },
+  {
+    "tag": "script",
+    "src": "https://consent.cookiebot.com/uc.js",
+    "attrs": {
+      "type": "text/javascript",
+      "id": "Cookiebot",
+      "src": "https://consent.cookiebot.com/uc.js",
+      "data-implementation": "wp",
+      "data-cbid": "3ce28f0c-efdc-4ff3-b3ad-ad92be3a92e1",
+      "data-culture": "EN",
+      "data-blockingmode": "auto"
+    },
+    "text": ""
+  },
+  {
+    "tag": "script",
+    "src": null,
+    "attrs": {
+      "id": "cookiebot-wp-consent-level-api-integration-js-extra"
+    },
+    "text": "var cookiebot_category_mapping = {\"n=1;p=1;s=1;m=1\":{\"preferences\":1,\"statistics\":1,\"statistics-anonymous\":0,\"marketing\":1},\"n=1;p=1;s=1;m=0\":{\"preferences\":1,\"statistics\":1,\"statistics-anonymous\":1,\"marketing\":0},\"n=1;p=1;s=0;m=1\":{\"preferences\":1,\"statistics\":0,\"statistics-anonymous\":0,\"marketing\":1},\"n=1;p=1;s=0;m=0\":{\"preferences\":1,\"statistics\":0,\"statistics-anonymous\":0,\"marketing\":0},\"n=1;p=0;s=1;m=1\":{\"preferences\":0,\"statistics\":1,\"statistics-anonymous\":0,\"marketing\":1},\"n=1;p=0;s=1;m=0\":{\"preferences\":0,\"statistics\":1,\"statistics-anonymous\":0,\"marketing\":0},\"n=1;p=0;s=0;m=1\":{\"preferences\":0,\"statistics\":0,\"statistics-anonymous\":0,\"marketing\":1},\"n=1;p=0;s=0;m=0\":{\"preferences\":0,\"statistics\":0,\"statistics-anonymous\":0,\"marketing\":0}};\nvar cookiebot_consent_type = {\"type\":\"optin\"};\n//# sourceURL=cookiebot-wp-consent-level-api-integration-js-extra"
+  },
+  {
+    "tag": "script",
+    "src": "https://mission-gruener-wohnen.ch/wp-content/plugins/cookiebot/assets/js/frontend/cb_frame/cookiebot-wp-consent-level-api-integration.js?ver=4.7.2",
+    "attrs": {
+      "id": "cookiebot-wp-consent-level-api-integration-js",
+      "src": "https://mission-gruener-wohnen.ch/wp-content/plugins/cookiebot/assets/js/frontend/cb_frame/cookiebot-wp-consent-level-api-integration.js?ver=4.7.2"
+    },
+    "text": ""
+  },
+  {
+    "tag": "script",
+    "src": "https://www.googletagmanager.com/gtag/js?id=GT-MQXZWR2Q",
+    "attrs": {
+      "id": "google_gtagjs-js",
+      "src": "https://www.googletagmanager.com/gtag/js?id=GT-MQXZWR2Q",
+      "async": ""
+    },
+    "text": ""
+  },
+  {
+    "tag": "script",
+    "src": null,
+    "attrs": {
+      "id": "google_gtagjs-js-after"
+    },
+    "text": "window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}\ngtag(\"set\",\"linker\",{\"domains\":[\"mission-gruener-wohnen.ch\"]});\ngtag(\"js\", new Date());\ngtag(\"set\", \"developer_id.dZTNiMT\", true);\ngtag(\"config\", \"GT-MQXZWR2Q\");\n//# sourceURL=google_gtagjs-js-after"
+  },
+  {
+    "tag": "script",
+    "src": null,
+    "attrs": {
+      "data-obct": "",
+      "type": "text/javascript"
+    },
+    "text": "/** DO NOT MODIFY THIS CODE**/\n  !function(_window, _document) {\n    var OB_ADV_ID = '00b18dbdd186b20f1caaf39540b6da59bc';\n    if (_window.obApi) {\n      var toArray = function(object) {\n        return Object.prototype.toString.call(object) === '[object Array]' ? object : [object];\n      };\n      _window.obApi.marketerId = toArray(_window.obApi.marketerId).concat(toArray(OB_ADV_ID));\n      return;\n    }\n    var api = _window.obApi = function() {\n      api.dispatch ? api.dispatch.apply(api, arguments) : api.queue.push(arguments);\n    };\n    api.version = '1.1';\n    api.loaded = true;\n    api.marketerId = OB_ADV_ID;\n    api.queue = [];\n    var tag = _document.createElement('script');\n    tag.async = true;\n    tag.src = '//amplify.outbrain.com/cp/obtp.js';\n    tag.type = 'text/javascript';\n    var script = _document.getElementsByTagName('script')[0];\n    script.parentNode.insertBefore(tag, script);\n  }(window, document);\n\n  obApi('track', 'PAGE_VIEW');"
+  },
+  {
+    "tag": "script",
+    "src": null,
+    "attrs": {},
+    "text": "( function( w, d, s, l, i ) {\n\t\t\t\tw[l] = w[l] || [];\n\t\t\t\tw[l].push( {'gtm.start': new Date().getTime(), event: 'gtm.js'} );\n\t\t\t\tvar f = d.getElementsByTagName( s )[0],\n\t\t\t\t\tj = d.createElement( s ), dl = l != 'dataLayer' ? '&l=' + l : '';\n\t\t\t\tj.async = true;\n\t\t\t\tj.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;\n\t\t\t\tf.parentNode.insertBefore( j, f );\n\t\t\t} )( window, document, 'script', 'dataLayer', 'GTM-5P27H2LT' );"
+  },
+  {
+    "tag": "noscript",
+    "src": null,
+    "attrs": {},
+    "text": "<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-5P27H2LT\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>"
+  },
+  {
+    "tag": "script",
+    "src": null,
+    "attrs": {
+      "type": "text/javascript",
+      "id": "",
+      "charset": ""
+    },
+    "text": "!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version=\"2.0\",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,\"script\",\"https://connect.facebook.net/en_US/fbevents.js\");fbq(\"init\",\"940703997470214\");fbq(\"track\",\"PageView\");"
+  },
+  {
+    "tag": "script",
+    "src": "https://tr.outbrain.com/cachedClickId?marketerId=00b18dbdd186b20f1caaf39540b6da59bc",
+    "attrs": {
+      "src": "//tr.outbrain.com/cachedClickId?marketerId=00b18dbdd186b20f1caaf39540b6da59bc"
+    },
+    "text": ""
+  },
+  {
+    "tag": "script",
+    "src": null,
+    "attrs": {
+      "id": "elementor-pro-frontend-js-before"
+    },
+    "text": "var ElementorProFrontendConfig = {\"ajaxurl\":\"https:\\/\\/mission-gruener-wohnen.ch\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"9696929c73\",\"urls\":{\"assets\":\"https:\\/\\/mission-gruener-wohnen.ch\\/wp-content\\/plugins\\/elementor-pro\\/assets\\/\",\"rest\":\"https:\\/\\/mission-gruener-wohnen.ch\\/wp-json\\/\"},\"settings\":{\"lazy_load_background_images\":true},\"popup\":{\"hasPopUps\":false},\"shareButtonsNetworks\":{\"facebook\":{\"title\":\"Facebook\",\"has_counter\":true},\"twitter\":{\"title\":\"Twitter\"},\"linkedin\":{\"title\":\"LinkedIn\",\"has_counter\":true},\"pinterest\":{\"title\":\"Pinterest\",\"has_counter\":true},\"reddit\":{\"title\":\"Reddit\",\"has_counter\":true},\"vk\":{\"title\":\"VK\",\"has_counter\":true},\"odnoklassniki\":{\"title\":\"OK\",\"has_counter\":true},\"tumblr\":{\"title\":\"Tumblr\"},\"digg\":{\"title\":\"Digg\"},\"skype\":{\"title\":\"Skype\"},\"stumbleupon\":{\"title\":\"StumbleUpon\",\"has_counter\":true},\"mix\":{\"title\":\"Mix\"},\"telegram\":{\"title\":\"Telegram\"},\"pocket\":{\"title\":\"Pocket\",\"has_counter\":true},\"xing\":{\"title\":\"XING\",\"has_counter\":true},\"whatsapp\":{\"title\":\"WhatsApp\"},\"email\":{\"title\":\"Email\"},\"print\":{\"title\":\"Print\"},\"x-twitter\":{\"title\":\"X\"},\"threads\":{\"title\":\"Threads\"}},\"facebook_sdk\":{\"lang\":\"en_US\",\"app_id\":\"\"},\"lottie\":{\"defaultAnimationUrl\":\"https:\\/\\/mission-gruener-wohnen.ch\\/wp-content\\/plugins\\/elementor-pro\\/modules\\/lottie\\/assets\\/animations\\/default.json\"}};\n//# sourceURL=elementor-pro-frontend-js-before"
+  }
+]

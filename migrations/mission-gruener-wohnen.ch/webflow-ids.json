@@ -1,0 +1,25 @@
+{
+  "site_id": "6aba24f6e0f264400c443d76",
+  "shortName": "blank-migration-01",
+  "pages": {
+    "home": "6aba24f8e0f264400c443d98",
+    "migration-claim": "6aba35a4cd900e0a614fc569",
+    "agb": "6aba3654c1aa60dc8568b373",
+    "datenschutz": "6aba36553c427274f36858cb",
+    "impressum": "6aba365515a2ed47c34341b6",
+    "solaranlage_m_e1": "6aba365628d016208709a8ff",
+    "waermepumpe_m_e1": "6aba365628d016208709a923"
+  },
+  "variables": {
+    "collection": "collection-66f14400-cc51-32b9-e871-3db35c1ecdf5",
+    "primary": "variable-166d7e1b-de6c-d116-b3cb-347ef95869c9",
+    "secondary": "variable-1d49b18d-bcc0-6201-a852-c9bfb7d7410f",
+    "text": "variable-ab689785-c2e2-a095-faef-a53dcf2b08c3",
+    "accent": "variable-caa32397-81a6-3f8f-c16d-0cc926a3d5af",
+    "white": "variable-3ec6caf0-3bdd-19a8-5c34-eb7326bfb19b",
+    "border": "variable-45d74e15-950b-6c06-b483-54bedc805dfa",
+    "surface": "variable-04c39e13-41f4-600e-4498-bf5132d6bbc3",
+    "font_primary": "variable-619ea4ef-79dc-a8c7-2028-a52215d6e1d4",
+    "container_max": "variable-d4e054f4-de6a-bd3d-d47f-3cd48e240be9"
+  }
+}
