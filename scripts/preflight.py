@@ -16,10 +16,14 @@ REQUIRED_HOSTS = [
 ]
 
 
-def check_http(url):
+def check_http(url, reachability_only=False):
+    """reachability_only: any upstream answer counts (a proxy denial of an https host fails the
+    CONNECT tunnel and raises). Bucket/CDN roots answer 403 AccessDenied by design."""
     import requests
     try:
         r = requests.get(url, timeout=20, allow_redirects=True)
+        if reachability_only:
+            return {"ok": r.status_code < 500 and r.status_code != 407, "status": r.status_code}
         return {"ok": r.status_code < 500 and r.status_code not in (403, 407), "status": r.status_code}
     except Exception as e:
         return {"ok": False, "error": str(e).splitlines()[0][:200]}
@@ -45,7 +49,7 @@ def main():
     except Exception as e:
         res["chromium"] = {"ok": False, "error": str(e).splitlines()[0][:300], "fix": "python3 -m playwright install chromium"}
     for h in REQUIRED_HOSTS:
-        r = check_http(h)
+        r = check_http(h, reachability_only=True)
         if not r["ok"]:
             r["fix"] = "Cloud environment network access must be Full, or Custom including this host (see README)."
         res[f"net:{h}"] = r
