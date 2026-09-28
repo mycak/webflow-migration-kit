@@ -89,7 +89,7 @@ def cmd_prepare(mig: Path, only: list[str] | None):
     items = [{"src": u, "alt": ""} for u in only] if only else collect_image_urls(mig)
     s = requests.Session()
     s.headers["User-Agent"] = "Mozilla/5.0 (migration-kit)"
-    manifest, used = [], set()
+    manifest, used, by_md5 = [], set(), {}
     for it in items:
         entry = {"src": it["src"], "alt": it["alt"]}
         try:
@@ -105,6 +105,11 @@ def cmd_prepare(mig: Path, only: list[str] | None):
                 raise RuntimeError("download failed (404/blocked)")
             entry["downloaded_from"] = used_url
             data, ext = normalise(raw)
+            md5 = hashlib.md5(data).hexdigest()
+            if md5 in by_md5:  # same image in another WP size -> reuse one Webflow asset
+                entry.update(dup_of=by_md5[md5], md5=md5)
+                manifest.append(entry)
+                continue
             name = safe_name(used_url, ext)
             i = 2
             while name in used:
@@ -112,13 +117,14 @@ def cmd_prepare(mig: Path, only: list[str] | None):
                 i += 1
             used.add(name)
             (out / name).write_bytes(data)
-            entry.update(file=name, md5=hashlib.md5(data).hexdigest(), bytes=len(data), converted=not raw == data)
+            by_md5[md5] = name
+            entry.update(file=name, md5=md5, bytes=len(data), converted=not raw == data)
         except Exception as e:  # 404 etc. -> recorded, agent decides (e.g. WP media search)
             entry["error"] = str(e)[:200]
             entry["hint"] = "WordPress: search /wp-json/wp/v2/media?search=<name> for a replacement; check if it is missing on the source too"
         manifest.append(entry)
     (out / "manifest.json").write_text(json.dumps(manifest, indent=2, ensure_ascii=False))
-    ok = [m for m in manifest if "file" in m]
+    ok = [m for m in manifest if "file" in m]  # dup_of entries need no create_asset
     print(json.dumps({"prepared": len(ok), "failed": [m for m in manifest if "error" in m],
                       "next": "for each entry call data_assets_tool > create_asset(site_id, file_name=file, file_hash=md5) "
                               "and save the result JSON to assets/uploads/<file>.json"}, indent=2, ensure_ascii=False))
@@ -167,6 +173,10 @@ def cmd_upload(mig: Path):
         amap[m["src"]] = {"asset_id": meta["id"], "file": m["file"], "url": cdn, "alt": m.get("alt", ""), "verified": verified}
         results.append({"file": m["file"], "s3_status": r.status_code, "verified": verified,
                         **({"s3_error": r.text[:300]} if not ok else {})})
+    by_file = {v["file"]: v for v in amap.values()}
+    for m in manifest:
+        if "dup_of" in m and m["dup_of"] in by_file:
+            amap[m["src"]] = {**by_file[m["dup_of"]], "alt": m.get("alt", "")}
     amap_path.write_text(json.dumps(amap, indent=2, ensure_ascii=False))
     print(json.dumps(results, indent=2, ensure_ascii=False))
     if any(not x.get("verified") and x.get("status") != "already uploaded" for x in results):

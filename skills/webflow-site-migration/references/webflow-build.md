@@ -19,6 +19,15 @@ Sprawdzone na Webflow MCP 2.1. Wszystkie narzędzia poniżej działają bez otwa
 7. **Osadzenia** (formularze zewnętrzne, skrypty per strona) — w HTML zostaw pusty kontener (np. `div.lp_form`), potem `data_element_builder` (`type: "HtmlEmbed"`, parent = kontener) i `data_element_settings_tool > set_settings` z `key: "code"`, `static_text.value` = pełny kod z `content/<slug>.json` (pole `html` widżetu).
 8. **CMS** — `data_cms_tool`: `create_collection`, `create_collection_static_field` / `create_collection_reference_field`, `create_collection_items` (draft). Szablon i Collection List: `data_element_builder` `type: "CMSCollection"` + wiązania przez `data_element_settings_tool > get_bindable_sources` / `set_settings`.
 
+## Sprawdzone techniki (migracja mission-gruener-wohnen.ch, 2026-09)
+- **Komponenty bez Designera**: zbuduj nagłówek/stopkę na jednej stronie, potem `data_component_tool > transform_element_to_component`; na kolejnych stronach `data_component_builder > insert_in_element` (po nazwie komponentu). Edycja wnętrza komponentu: `scope_component_id`.
+- **Collection List**: `data_element_builder` `type: "CMSCollection"` → `data_element_settings_tool > set_settings` na DynamoWrapper: `source` (`static_json` `{"collectionId":…}`), `sort` (`[{"fieldSlug":"datum","direction":"descending"}]`), `limit` (`static_number`). Klasę gridu nadaj DynamoList przez `set_style` (styl utwórz wcześniej `create_style`). Kartę wstaw `data_whtml_builder` do DynamoItem.
+- **Wiązania CMS**: `set_settings` z `binding: {source_type: "cms", collection_id, field_id}` — klucze: `text` (Heading/Paragraph/Div), `assetId` + `altText` (Image), `richText` (element `RichText` z `data_element_builder`). Link do strony itemu: `link` → `static_link {mode: "collectionPage", to: "<slug kolekcji>"}`.
+- **SEO szablonu CMS**: `update_page_settings` na stronie szablonu z placeholderami, np. `seo.title: "{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\\} }} - MARKA"` — renderuje się po publikacji.
+- **Rich text w CMS**: `create_collection_items` przyjmuje HTML (`<h2>`, `<p>`, `<ul>`, `<a>`); wyczyść atrybuty i puste `<p>` z WordPressa. Pole Image: `{"fileId": asset_id, "url": hostedUrl, "alt": …}` (Webflow kopiuje plik do CMS).
+- **Pułapki whtml**: `class="a b"` tworzy combo class `b` na `a`; element bez treści i bez CSS dla swojej klasy traci klasę (dodaj regułę CSS albo nadaj klasę później). CSS nie może zawierać `<`/`>` (np. SVG w `url(data:…)`).
+- **Sieć w chmurze**: przeglądarka przez proxy sporadycznie zwraca `net::ERR_TOO_MANY_RETRIES` (obrazy, CSS, fonty) — `qa.py` weryfikuje zgłoszone obrazy przez HTTP; font „Times New Roman” w QA zwykle oznacza urwany CSS, sprawdź ponownie.
+
 ## Ograniczenia `data_whtml_builder`
 - max 5 akcji na wywołanie; `html` = jeden element główny; CSS bez `<style>` i `@keyframes`;
 - tylko media queries Webflow: `@media screen and (max-width: 991px)`, `767px`, `479px`;
